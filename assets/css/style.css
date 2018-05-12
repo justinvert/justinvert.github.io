@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+   
+  }
+
+.all{
+    position:relative; 
+    height:100%;
+}
+
+.background
+{
+    height: 100%;
+    padding-bottom: 150px;
+    background-image: url(../images/nice_snow.png);
+    background-repeat: repeat;
+}
+
+.box
+{
+    width: 960px;
+    margin-left:203px;
+    border: 1px solid #dddddd;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color:#777777;
+    
+}
+
+header
+{
+    color: #777777;
+    border-bottom: 3px solid #cccccc;
+    background-color: #ffffff;
+    padding: 40px;
+    color: #fff;
+
+}
+
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 100%;
+}
+
+p
+{
+    margin: 0 auto;
+    width: 960px;
+    clear: both;
+    color:#777777;
+    background-color:#ffffff;
+    border: 1px solid #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 10px;
+    height: 100%;
+
+}
+input[type=text]
+{
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color:#777777;
+    border: 1px solid #dddddd;
+    width: 900px;
+    font-size: 15px;
+}
+
+
+input[type=submit] {
+    color: #fff;
+    background-color:#4aaaa5; ;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+textarea
+{
+    height: 120px;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color:#777777;
+    border: 1px solid #dddddd;
+    width: 900px;
+    font-size: 15px;
+}
+
+form {
+width: 100%;
+background-color: #ffffff;
+font-size: 15px;
+padding: 25px;
+font-weight: bold;
+
+}
+
+label{
+    width: 960px;
+    background-color: #ffffff;
+  
+}
+h1{
+    margin: 0 auto;
+    width: 960px;
+    padding: 10px;
+    background-color:#4aaaa5;
+    padding: 10px 0 0 10px;
+}
+
+h2{
+    margin: 0 auto;
+    width: 960px;
+    font-family: 'Georgia', Times, serif;
+    padding: 25px;
+    border-bottom: 3px solid #cccccc;
+    background-color: #fff;
+    color:#4aaaa5;
+    margin-top: 25px;
+    font-size: 25px;
+    border: 1px solid #dddddd;
+}
+
+img{
+    float:left;
+    width: 250px;
+    padding: 15px;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    bottom: 0;
+   height: 70px;
+    position: absolute;
+    text-align: center;
+    border-top: 3px solid #4aaaa5;
+    background-color:#666666;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    
+}
+
+li{
+    display: inline;
+    text-decoration:none;
+}
+
+li a {
+color: #777;
+text-decoration:none;
+}
+
+ul {
+    float: right;
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow: hidden;
+    font-size: 15px;
+    width: 25%;
+    margin-top: -5px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+}
+
+#absolute
+{
+position: absolute;
+top:0;
+color:#fff;
+padding: 23px;
+padding-bottom: 27px;
+margin-left: 162px;
+font-size: 30px;
+background-color:#4aaaa5;
+font-family: 'Georgia', Times, serif;
+}
+
+#rock
+{
+  
+    padding: 23px;
+    width: 220px;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #fff;
+    margin-left: 15px;
+    margin-top: 151px;
+}
+
+#triva
+{
+   
+    padding: 23px;
+    width: 220px;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #fff;
+    margin-left: 15px;
+    margin-top: -86px;
+    
+}
+
+#game
+{
+    padding: 23px;
+    width: 220px;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #fff;
+    margin-left: 265px;
+    margin-top: 150px;
+    clear: both; 
+}
+
+#hm {
+    padding: 23px;
+    width: 220px;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #fff;
+    margin-left: 15px;
+    margin-top: 150px;
+}
+
+#widget
+{
+  
+    padding: 23px;
+    width: 220px;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #fff;
+    margin-left: 265px;
+    margin-top: -86px;
+
+}
+
+.boxes{
+    background-color: #fff;
+    padding: 42px;
+    margin-left: -8px;
+    height: 755px;
+    margin-right: 8px;
+    border: 1px solid #dddddd;
+}
+
+.box2{
+    width: 960px;
+    margin-left:203px;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color:#777777;
+}
+
+.box3 {
+    width: 960px;
+    margin-left: 195px;
+    border: 1px solid #dddddd;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color: #777777;
+}
+
+span {
+    display: inline-block;
+    width: 100%;
+  }
