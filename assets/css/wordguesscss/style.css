@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(231, 180, 229);
+}
+.column {
+    float: left;
+    background-color:#bbb;
+    
+ 
+}
+
+.row{
+    clear:both;
+    margin-top: -30px;
+}
+
+.left{
+    width:65%;
+}
+
+.right{
+    width:50%;
+    clear:both;
+}
+#box{
+  
+    float:left;
+    background: #fff;
+    padding: 25px;
+    margin-top: -11px;
+    margin-left: 3px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.paint{
+    background-color: #cee1e9;
+    height: 600px;    
+    border-top: 4px solid #d4ecfc;
+    border-left: 4px solid #d4ecfc;
+    border-right: 4px solid #d4ecfc;
+    width: 79%;
+    min-width: 960px;
+      border-radius: 2px;
+      border-top-left-radius: 5px;
+    border-top-right-radius:3px;
+}
+
+#nav {
+    width: 79%;
+    min-width: 960px;
+	float: left;
+	margin: 0 0 1em 0;
+	padding-top: 125px;
+	background-color: #cee1e9;
+    border-bottom: 1px solid #ccc; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 3px;
+    border-top:2px solid #ccc; 
+    background: url("../images/header.png");
+    background-repeat: no-repeat center fixed;
+  
+}
+
+
+.container {
+    width: 100%;
+    min-width: 960px;
+    overflow: auto;
+    padding: 1em;
+ 
+    margin: auto;
+    position: fixed;
+}
+
+#footer{
+    background-color: #f8f7f7;
+    height: 25px;    
+    border-top: 1px solid #e2dfdf;
+    border-left: 1px solid #e2dfdf;
+    border-right: 1px solid #e2dfdf;
+    width: 79%;
+    min-width: 960px;
+      border-bottom-left-radius: 2px;
+      border-bottom-right-radius: 2px;
+      font-size:14px;
+      font-family: arial;
+      background-image: url("../images/footer.png");
+      background-repeat: no-repeat center fixed;
+}
+
+p {
+    width: 100px;
+    height: 10px;
+    font-size:11px;
+    margin-top:6px;
+    margin-left:-25px;
+
+   
+}
+
+table{
+    width: 100px;
+    height: 10px;
+    font-size:11px;
+    margin-top:-3px;
+    margin-left:25px;
+   
+
+}
+
+.table1{
+    margin-left:390px;
+}
+
+.table2{
+    margin-left:-200px;
+   
+    width:75px;
+}
+
+.video{
+    position: absolute;
+    bottom:59px;
+    z-index: -1;
+    margin-left:818px;
+    border-top: 4px solid #d4ecfc;
+    border-left: 4px solid #d4ecfc;
+    border-right: 4px solid #d4ecfc;
+}
