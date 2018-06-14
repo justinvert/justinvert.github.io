@@ -58,7 +58,7 @@ body{
     border-top-left-radius: 5px;
     border-top-right-radius: 3px;
     border-top:2px solid #ccc; 
-    background: url("../images/wordguessimages/header.png");
+    background: url("../../images/wordguessimages/header.png");
     background-repeat: no-repeat center fixed;
   
 }
@@ -86,7 +86,7 @@ body{
       border-bottom-right-radius: 2px;
       font-size:14px;
       font-family: arial;
-      background-image: url("../images/wordguessimages/footer.png");
+      background-image: url("../../images/wordguessimages/footer.png");
       background-repeat: no-repeat center fixed;
 }
 
