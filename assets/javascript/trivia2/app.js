@@ -159,7 +159,7 @@ function quizNew3(){
         "</form>" ;
         $('#question3').hide();
         $('#testAnswers').hide();
-        clearTimeout(myVar3);
+        clearTimeout(myVar4);
         countdown = 10;
  
  }
