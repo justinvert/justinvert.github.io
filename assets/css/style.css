@@ -108,11 +108,11 @@ footer {
   clear: both;
   font-size: 12px;
   color: #fff;
-  color: #ccc;
   text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
-  height: 50px;
+  box-shadow: 0px 1px 12px #de1dde;
+  height: 88px;
+  background-image: url(../images/sky-background.jpeg);
+  background-size: cover;
 }
 
 h3, h2 {
@@ -141,6 +141,11 @@ h3, h2 {
   background: url(../images/background-inverted.jpg);
   color: #000;
   font-weight: bold;
+}
+
+#styled{
+  background-color:#F8F8FF;
+  box-shadow: 0 0 15px 15px #F8F8FF;
 }
 
 /* portfolio page */
