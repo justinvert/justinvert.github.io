@@ -138,6 +138,9 @@ h3, h2 {
   background: #F8F8FF;
   box-shadow: 0 0 5px 7px #F8F8FF;
   border-radius: 4px;
+  background: url(../images/background-inverted.jpg);
+  color: #000;
+  font-weight: bold;
 }
 
 /* portfolio page */
