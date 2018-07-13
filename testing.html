@@ -17,9 +17,13 @@
     
     background-image: url('assets/images/background.jpeg');
 }
-                    #footer{
-                        bottom:0;
-                    }
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+background: orange;
+}
                     
                     .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
                 background-color: transparent;
@@ -69,12 +73,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-footer{
+/* footer{
     background-color: #000000!important;
     background-image: url(assets/images/sky-background.jpeg);
     background-size: cover;
     box-shadow: 0px 1px 12px #de1dde;
-}
+} */
 
 .text-muted{
     color: #fff!important;
@@ -139,7 +143,7 @@ footer{
         </br>
 
         </div></div>
-        <footer class="container-fluid w-100 bg-dark text-light py-3">
+        <footer class="footer">
                 <div class="container text-center">
                   <span class="text-muted">Est. 2018</span>
                 </div>
