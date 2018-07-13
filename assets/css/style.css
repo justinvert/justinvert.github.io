@@ -25,8 +25,16 @@ html {
     background-size: cover;
     box-shadow: 0px 1px 12px #de1dde;
 }
+
+.btn-primary {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rebeccapurple;
+    border-color: #007bff;
+}
                     
-                    .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+                    /* .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
                 background-color: transparent;
                 border-color: transparent;
                 float: left;
@@ -41,7 +49,7 @@ html {
                 text-align: center;
                 text-decoration: none;
                 text-shadow: 1px 1px 2px #ce31ce, 0 0 25px #de1dde, 0 0 5px #de1dde;
-              }
+              } */
 
               /* .navbar, .navbar-expand-lg, .navbar-light, .bg-light, .border-bottom{
                   position: fixed;
@@ -101,4 +109,39 @@ html {
     background-color: #F8F8FF;
     box-shadow: 0 0 5px 3px #F8F8FF;
 }
-           
+
+#textfield{
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 5px 7px #F8F8FF;
+    border-radius: 4px;
+    background: url('../images/background-inverted.jpg');
+    color: #000;
+    font-weight: bold;
+  }
+
+  .row{
+    margin-top: 10px;
+    margin-left: 16px;
+  }
+
+  .name{
+    background-color: transparent;
+    border-color: transparent;
+    float: left;
+    width: 290px;
+    height: 90px;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #ce31ce, 0 0 25px #de1dde, 0 0 5px #de1dde;
+  }
+
+  a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
