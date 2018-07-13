@@ -13,6 +13,7 @@ html {
                     margin-bottom: 60px;
 
     background-image: url('../images/background.jpeg');
+    background-size: cover;
 }
 .footer {
     position: absolute;
