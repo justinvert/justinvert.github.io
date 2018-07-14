@@ -1,6 +1,6 @@
 
-  
-  *{
+/* HTML + Body */
+*{
     padding: 0;
     margin: 0;
 }
@@ -9,12 +9,44 @@ html {
   position: relative;
   min-height: 100%;
 }
-                   body {
-                    margin-bottom: 60px;
 
-    background-image: url('../images/background.jpeg');
-    background-size: cover;
+ body {
+ margin-bottom: 60px;
+ background-image: url('../images/background.jpeg');
+ background-size: cover;
 }
+
+/* HEADER */
+.name{
+    background-color: transparent;
+    border-color: transparent;
+    float: left;
+    width: 290px;
+    height: 90px;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #ce31ce, 0 0 25px #de1dde, 0 0 5px #de1dde;
+  }
+
+  a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+/* FOOTER */
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -26,6 +58,15 @@ html {
     box-shadow: 0px 1px 12px #de1dde;
 }
 
+.text-muted{
+    line-height: 55px;
+    color: #fff!important;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* TEXT FIELDS */
 .btn-primary {
     color: #fff;
     font-size: 18px;
@@ -36,38 +77,18 @@ html {
 #portfolio{
 padding: 20px;
 }
-                    
-                    /* .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
-                background-color: transparent;
-                border-color: transparent;
-                float: left;
-                width: 290px;
-                height: 90px;
-                font-family: 'Fredoka One', cursive;
-                letter-spacing: 3px;
-                font-size: 25px;
-                font-weight: 700;
-                line-height: 90px;
-                color: #fff;
-                text-align: center;
-                text-decoration: none;
-                text-shadow: 1px 1px 2px #ce31ce, 0 0 25px #de1dde, 0 0 5px #de1dde;
-              } */
+             
+.bg-light {
+    background-color: #000000!important;
+    background-image: url('../images/sky-background.jpeg');
+    background-size: cover;
+    box-shadow: 0px 1px 12px #de1dde;
+        }
 
-              /* .navbar, .navbar-expand-lg, .navbar-light, .bg-light, .border-bottom{
-                  position: fixed;
-              } */
-
-          .bg-light {
-            background-color: #000000!important;
-            background-image: url('../images/sky-background.jpeg');
-            background-size: cover;
-            box-shadow: 0px 1px 12px #de1dde;
+.border-bottom {
+    border-bottom: none!important;
               }
 
-              .border-bottom {
-                       border-bottom: none!important;
-              }
 #text-body{
     font-family: 'Poppins', sans-serif;
     background: #F8F8FF;
@@ -76,28 +97,6 @@ padding: 20px;
     background: url('../images/background-inverted.jpg');
     color: #000;
     font-weight: bold;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: #fff;
-    font-weight: bold;
-    font-size: 18pxS;
-    font-family: 'Poppins', sans-serif;
-}
-
-/* footer{
-    background-color: #000000!important;
-    background-image: url(assets/images/sky-background.jpeg);
-    background-size: cover;
-    box-shadow: 0px 1px 12px #de1dde;
-} */
-
-.text-muted{
-    line-height: 55px;
-    color: #fff!important;
-    font-weight: bold;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
 }
 
 .h1, h1 {
@@ -129,28 +128,6 @@ padding: 20px;
     margin-left: 16px;
   }
 
-  .name{
-    background-color: transparent;
-    border-color: transparent;
-    float: left;
-    width: 290px;
-    height: 90px;
-    font-family: 'Fredoka One', cursive;
-    letter-spacing: 3px;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 90px;
-    color: #fff;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: 1px 1px 2px #ce31ce, 0 0 25px #de1dde, 0 0 5px #de1dde;
-  }
-
-  a:hover {
-    color: #fff;
-    text-decoration: none;
-  }
-
   #about {
     padding: 20px;
 }
@@ -160,8 +137,18 @@ padding: 20px;
     line-height: 38px;
 }
 
+#contact-link{
+    font-size: 26px;
+    line-height: 38px;
+}
+
 #update{
     font-size:25px;
     color:red;
     text-align: center;
 }
+
+.text-center::before{
+    content:"";
+    margin-left:calc(100% - 100%);
+  } 
