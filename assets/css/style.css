@@ -164,14 +164,14 @@ padding: 20px;
 .name-here{
     background-color: transparent;
     border-color: transparent;
-    float: left;
-    width: 290px;
-    height: 90px;
+    /* float: left; */
+    /* width: 290px;
+    height: 70px; */
     font-family: 'VT323', monospace;
     letter-spacing: 3px;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
-    line-height: 77px;
+    line-height: 7px;
     color: #fff;
     text-align: center;
     text-decoration: none;
