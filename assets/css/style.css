@@ -74,6 +74,11 @@ html {
     background-color: rebeccapurple;
     border-color: #007bff;
 } */
+
+.btn-group{
+
+    background-color: azure;
+}
 #portfolio{
 padding: 20px;
 }
@@ -241,3 +246,8 @@ padding: 20px;
         font-size:22px; 
     }
 
+    @media screen and (max-width: 600px) {
+        .nav-link{
+          font-size:30px;
+        }
+      }
